@@ -1,0 +1,625 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GOTHAM PRO/GothamPro-Bold.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Bold"), local("GothamPro-Bold"),
+      url("./fonts/GOTHAM PRO/GothamPro-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamPro-Bold.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamPro-Bold.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamPro-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GOTHAM PRO/GothamPro-Light.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Light"), local("GothamPro-Light"),
+      url("./fonts/GOTHAM PRO/GothamPro-Light.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamPro-Light.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamPro-Light.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamPro-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GOTHAM PRO/GothamPro-Italic.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Italic"),
+      local("GothamPro-Italic"),
+      url("./fonts/GOTHAM PRO/GothamPro-Italic.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamPro-Italic.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamPro-Italic.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamPro-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro Narrow";
+    src: url("./fonts/GOTHAM PRO/GothamProNarrow-Bold.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Narrow Bold"),
+      local("GothamProNarrow-Bold"),
+      url("./fonts/GOTHAM PRO/GothamProNarrow-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamProNarrow-Bold.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamProNarrow-Bold.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamProNarrow-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GOTHAM PRO/GothamPro-Medium.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Medium"),
+      local("GothamPro-Medium"),
+      url("./fonts/GOTHAM PRO/GothamPro-Medium.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamPro-Medium.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamPro-Medium.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamPro-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GOTHAM PRO/GothamPro-BoldItalic.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Bold Italic"),
+      local("GothamPro-BoldItalic"),
+      url("./fonts/GOTHAM PRO/GothamPro-BoldItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamPro-BoldItalic.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamPro-BoldItalic.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamPro-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GOTHAM PRO/GothamPro-MediumItalic.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Medium Italic"),
+      local("GothamPro-MediumItalic"),
+      url("./fonts/GOTHAM PRO/GothamPro-MediumItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamPro-MediumItalic.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamPro-MediumItalic.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamPro-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GOTHAM PRO/GothamPro-BlackItalic.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Black Italic"),
+      local("GothamPro-BlackItalic"),
+      url("./fonts/GOTHAM PRO/GothamPro-BlackItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamPro-BlackItalic.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamPro-BlackItalic.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamPro-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro Narrow";
+    src: url("./fonts/GOTHAM PRO/GothamProNarrow-Medium.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Narrow Medium"),
+      local("GothamProNarrow-Medium"),
+      url("./fonts/GOTHAM PRO/GothamProNarrow-Medium.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamProNarrow-Medium.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamProNarrow-Medium.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamProNarrow-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GOTHAM PRO/GothamPro-LightItalic.eot");
+    src: local("./fonts/GOTHAM PRO/Gotham Pro Light Italic"),
+      local("GothamPro-LightItalic"),
+      url("./fonts/GOTHAM PRO/GothamPro-LightItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/GOTHAM PRO/GothamPro-LightItalic.woff2") format("woff2"),
+      url("./fonts/GOTHAM PRO/GothamPro-LightItalic.woff") format("woff"),
+      url("./fonts/GOTHAM PRO/GothamPro-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Blue curve";
+    src: url("./fonts/BLUECURVE/blue-curve-3.eot");
+    src: url("./fonts/BLUECURVE/blue-curve-3.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/BLUECURVE/blue-curve-3.woff") format("woff"),
+      url("./fonts/BLUECURVE/blue-curve-3.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Akira";
+    src: url("./fonts/AKIRA/Akira_Expanded_Demo.eot?") format("eot"),
+      url("./fonts/AKIRA/Akira_Expanded_Demo.woff") format("woff"),
+      url("./fonts/AKIRA/Akira_Expanded_Demo.ttf") format("truetype"),
+      url("./fonts/AKIRA/Akira_Expanded_Demo.svg#AkiraExpanded-SuperBold")
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #1e2142;
+}
+
+.content-container {
+  min-height: 100vh;
+}
+
+/* БАЛАНСИРОВАНИЕ ТЕКСТА */
+.textwrap {
+  text-wrap: balance;
+}
+/* БАЛАНСИРОВАНИЕ ТЕКСТА */
+
+/* ОГРАНИЧЕНИЕ СТРОК, ЕСЛИ БОЛЬШЕ 7 СТАВИТЬСЯ ТРОЕТОЧИЕ ИСПОЛЬЗУТЕСЯ В СЛАЙДЕРЕ */
+.lineclamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+/* ОГРАНИЧЕНИЕ СТРОК, ЕСЛИ БОЛЬШЕ 7 СТАВИТЬСЯ ТРОЕТОЧИЕ ИСПОЛЬЗУТЕСЯ В СЛАЙДЕРЕ */
+
+/* ЭФФЕКТ ПРИ НАВЕДЕНИИ НА БЛОК ИЗОБРАЖЕНИЕ В БЛОКЕ ЗУМИТСЯ */
+.bgZoomEffect img {
+  width: 100%;
+  height: 100%;
+  transition: scale 400ms;
+}
+.bgZoomEffect:hover img {
+  scale: 120%;
+}
+/* ЭФФЕКТ ПРИ НАВЕДЕНИИ НА БЛОК ИЗОБРАЖЕНИЕ В БЛОКЕ ЗУМИТСЯ */
+
+/* ОГРАНИЧЕНИЕ СТРОК, ЕСЛИ БОЛЬШЕ 3 СТАВИТЬСЯ ТРОЕТОЧИЕ */
+.lineclamptwo {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+/* ОГРАНИЧЕНИЕ СТРОК, ЕСЛИ БОЛЬШЕ 3 СТАВИТЬСЯ ТРОЕТОЧИЕ */
+
+/* ОГРАНИЧЕНИЕ СТРОК, ЕСЛИ БОЛЬШЕ 2 СТАВИТЬСЯ ТРОЕТОЧИЕ */
+.lineclampone {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+/* ОГРАНИЧЕНИЕ СТРОК, ЕСЛИ БОЛЬШЕ 2 СТАВИТЬСЯ ТРОЕТОЧИЕ */
+
+/* ЕСЛИ ОГРАНИЧЕНИЕ НЕ РАБОТАЕТ МОЖНО ЭТОТ СПОСОБ */
+/* .testing {
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+/* ЕСЛИ ОГРАНИЧЕНИЕ НЕ РАБОТАЕТ МОЖНО ЭТОТ СПОСОБ */
+
+/* ЭФФЕКТ ПРИ НАВЕДЕНИИ НА БЛОК ИЗОБРАЖЕНИЕ В БЛОКЕ ЗАТЕМНЯЕТСЯ */
+.spanhovereffect:hover .anime {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+.spanbgeffect {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* ЭФФЕКТ ПРИ НАВЕДЕНИИ НА БЛОК ИЗОБРАЖЕНИЕ В БЛОКЕ ЗУМИТСЯ */
+
+/* ЭФФЕКТ ПРИ НАВЕДЕНИИ НА БЛОК  SVG КАРТИНКА ЗУМИТСЯ */
+.bgZoomEffect .svgPlay {
+  width: 100%;
+  height: 100%;
+  transition: scale 400ms;
+}
+.bgZoomEffect:hover .svgPlay {
+  scale: 130%;
+}
+/* ЭФФЕКТ ПРИ НАВЕДЕНИИ НА БЛОК  SVG КАРТИНКА ЗУМИТСЯ */
+
+/* relative after:absolute after:h-[.0625rem] after:w-full after:left-0 after:-bottom-[-1px] after:bg-[#ffffff] after:scale-0 hover:after:scale-100 after:transition-transform */
+
+/* OBJECTFIT ИЗОБРАЖЕНИЯМ */
+.objFit {
+  width: 100%;
+  min-width: 150px;
+  height: 350px;
+  min-height: 100px;
+  object-fit: cover;
+}
+/* OBJECTFIT ИЗОБРАЖЕНИЯМ */
+
+/* СТИЛИЗАЦИЯ СЛАЙДЕРА СКРОЛБАРА!!! */
+.swiper-scrollbar {
+  background-color: #363d79 !important;
+  height: 5px !important;
+}
+.swiper-scrollbar-drag {
+  background-color: #7185e3 !important;
+}
+/* СТИЛИЗАЦИЯ СЛАЙДЕРА СКРОЛБАРА!!! */
+
+/* СТИЛИЗАЦИЯ КНОПОК СЛАЙДЕРА */
+.swiper-pagination-bullet {
+  background-color: #5662d5 !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+@media (max-width: 640px) {
+  .swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+.swiper-pagination-bullet-active {
+  background-color: #5662d5 !important;
+}
+/* СТИЛИЗАЦИЯ КНОПОК СЛАЙДЕРА */
+
+/* СТИЛИЗАЦИЯ КНОПКИ FOLLOW FOOTER */
+.input-container {
+  position: relative;
+  display: flex;
+  height: 57px;
+  width: 100%;
+  min-width: 200px;
+  max-width: 611px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+}
+.input-container input {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgb(176 190 197);
+  background-color: transparent;
+  padding: 0.625rem 70px 0.625rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  outline: none;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-container input:focus {
+  border: 1px solid #7185e3;
+}
+.invite-btn {
+  position: absolute;
+  width: 130px;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  z-index: 10;
+  border-radius: 15px;
+  background-color: #7185e3;
+  color: #000000;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 14px;
+  padding-right: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.6s ease;
+}
+.invite-btn:hover {
+  border-radius: 15px;
+}
+.input-container input:placeholder-shown ~ .invite-btn {
+  pointer-events: none;
+  background-color: #8da4ec;
+  opacity: 0.5;
+}
+/* СТИЛИЗАЦИЯ КНОПКИ FOLLOW FOOTER */
+
+/* СОЦИАЛЬНЫЕ СЕТИ ФУТЕРА */
+.social:hover .circlemain {
+  background-color: #d6fe50;
+}
+/* СОЦИАЛЬНЫЕ СЕТИ ФУТЕРА */
+
+/* ПРИ ОТКРЫТИЕ МОДАЛЬНОГО ОКНО НЕ БЫЛО СКРОЛА */
+.modalIsOpened {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.modalIsOpened {
+  height: 100vh;
+  overflow-y: hidden;
+}
+/* ПРИ ОТКРЫТИЕ МОДАЛЬНОГО ОКНО НЕ БЫЛО СКРОЛА */
+
+/* ТЕСТ СКРЫТИЕ МОДАЛЬНОГО ОКНА */
+/* @media screen and (min-width: 1124px) {
+  .test {
+    display: none;
+  }
+} */
+/* ТЕСТ СКРЫТИЕ МОДАЛЬНОГО ОКНА */
+
+/* ПРИ НАХОЖДЕНИИ ИНФОРМАЦИИ В МОДАЛЬНОМ ОКНЕ ХОВЕР */
+.hoveringbg {
+  background: transparent;
+}
+.hoveringbg:hover {
+  background: rgba(214, 254, 80, 0.2);
+}
+/* ПРИ НАХОЖДЕНИИ ИНФОРМАЦИИ В МОДАЛЬНОМ ОКНЕ ХОВЕР */
+
+/* ИНДЕКС ХЕДЕРА */
+.z-index-header {
+  z-index: 999;
+}
+/* ИНДЕКС ХЕДЕРА */
+
+/* СТИЛИЗАЦИЯ СКРОЛБАРА */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5662d5;
+  border-radius: 20px;
+}
+/* СТИЛИЗАЦИЯ СКРОЛБАРА */
+
+/* ЗАДНЯЯ КАРТИНКА СТРАНИЦЫ ПРОСМОТРА АНИМЕ */
+.bgbuttonSearchAnime {
+  background: rgba(73, 144, 232, 0.47);
+}
+.bgbuttonWatchAnime {
+  background: rgba(214, 254, 80, 0.35);
+}
+
+/* ЗАДНЯЯ КАРТИНКА СТРАНИЦЫ ПРОСМОТРА АНИМЕ */
+
+/* ГРИД КОНТЕЙНЕР ИНФОРМАЦИИ НА СТРАНИЦА ПРОСМОТРА АНИМЕ */
+.containerGrid {
+  display: grid;
+  /* Будет создано 3 колонки */
+  grid-template-columns: 300px auto;
+}
+/* ГРИД КОНТЕЙНЕР ИНФОРМАЦИИ НА СТРАНИЦА ПРОСМОТРА АНИМЕ */
+
+/* ОГРАНИЧЕНИЯ ОПИСАНИЯ КОНТЕНТА ПРОСМОТРА АНИМЕ */
+.lineclamp7 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+}
+
+/* ОГРАНИЧЕНИЯ ОПИСАНИЯ КОНТЕНТА ПРОСМОТРА АНИМЕ */
+
+/* .content {
+  min-height: 100vh;
+  position: relative;
+}
+.content .footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+} */
+
+/* ОГРАНИЧЕНИЯ ОПИСАНИЯ КОНТЕНТА ПРОСМОТРА АНИМЕ */
+
+/* СТИЛИЗАЦИЯ СЛАЙДЕРА ГДЕ ПРОСМОТР АНИМЕ КАРТИНОК */
+.swiper-button-next,
+.swiper-button-prev {
+  background: #5662d58f !important;
+  padding-top: 16px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  padding-bottom: 16px !important;
+  border-radius: 50% !important;
+  width: clamp(25px, 5vw, 50px) !important;
+  height: clamp(25px, 5vw, 50px) !important;
+}
+
+.swiper-button-prev:hover {
+  background: #5662d5c2 !important;
+  transition: 0.2s ease-in-out;
+}
+
+.swiper-button-next:hover {
+  background: #5662d5c2 !important;
+  transition: 0.2s ease-in-out;
+}
+.swiper-button-next::after {
+  content: "";
+  color: white;
+  font-size: 15px !important;
+}
+.swiper-button-prev::after {
+  content: "";
+  color: white;
+  font-size: 15px !important;
+}
+.swiper-button-disabled {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+.swiper-slide {
+  user-select: none;
+}
+/* СТИЛИЗАЦИЯ СЛАЙДЕРА ГДЕ ПРОСМОТР АНИМЕ КАРТИНОК */
+
+/* СТИЛИЗАЦИЯ ХОВЕРА И САМИХ КАРТИНОК В СЛАЙДЕРЕ */
+
+/* СТИЛИЗАЦИЯ ХОВЕРА И САМИХ КАРТИНОК В СЛАЙДЕРЕ */
+
+/* .pestxr {
+  width: clamp(180px, 13vh, 250px);
+  height: clamp(100px, 10vh, 350px);
+} */
+
+.adaptiveImageAnime {
+  padding: 0px 0px 120% 0px;
+  overflow: hidden;
+  position: relative;
+}

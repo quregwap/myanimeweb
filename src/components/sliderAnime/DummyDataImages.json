@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6321e088d91c5890130687.jpg",
+    "title": "Киберпанк:Бегущий по краю",
+    "subTitle": "2022, Фантастика, Экшен",
+    "rating": "9.1"
+  },
+  {
+    "id": 2,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5ab170d351312102639546.jpg",
+    "title": "Ван-Пис",
+    "subTitle": "1999, Драма, Комедия, Приключения, Сёнэн, Супер сила, Фэнтези, Экшен",
+    "rating": "9.4"
+  },
+  {
+    "id": 3,
+    "img": "https://ani-jutsu.club/uploads/posts/2021-06/1623495401-1916457431-unesennye-prizrakami.jpg",
+    "title": "Унесённые призраками",
+    "subTitle": "2001, Мультфильм, Фэнтези, Семейный, Приключения",
+    "rating": "8.5"
+  },
+  {
+    "id": 4,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a510464ccfae.jpg",
+    "title": "Блич",
+    "subTitle": "2004, Комедия, Приключения, Сверхъестественное, Сёнэн, Супер сила, Фэнтези, Экшен",
+    "rating": "9.4"
+  },
+  {
+    "id": 5,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a709a018f697.jpg",
+    "title": "Охотник х Охотник 2",
+    "subTitle": "2011, Приключения, Сёнэн, Супер сила, Фэнтези, Экшен",
+    "rating": "9.5"
+  },
+  {
+    "id": 6,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5aca08af08caf111987219.jpg",
+    "title": "Баскетбол Куроко",
+    "subTitle": "2012, Комедия, Сёнэн, Спорт, Школа",
+    "rating": "9.0"
+  },
+  {
+    "id": 7,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a74aa59295bb.jpg",
+    "title": "Моя геройская академия",
+    "subTitle": "2016, Комедия, Сёнэн, Супер сила, Школа, Экшен",
+    "rating": "8.6"
+  },
+  {
+    "id": 8,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a6b3b1186cef.jpg",
+    "title": "Волейбол!!",
+    "subTitle": "2014, Драма, Комедия, Сёнэн, Спорт, Школа",
+    "rating": "9.2"
+  },
+  {
+    "id": 9,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6319cd947a99a365246749.jpg",
+    "title": "Человек-бензопила",
+    "subTitle": "2022, Демоны, Приключения, Сверхъестественное, Сёнэн, Фэнтези, Экшен",
+    "rating": "9.3"
+  },
+  {
+    "id": 10,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5f7c1bb915a07033689374.jpg",
+    "title": "Магическая битва",
+    "subTitle": "2020, Демоны, Сверхъестественное, Сёнэн, Ужасы, Фэнтези, Школа, Экшен",
+    "rating": "9.3"
+  },
+  {
+    "id": 11,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a3fbef2671f5.jpg",
+    "title": "Наруто",
+    "subTitle": "2002, Боевые искусства, Комедия, Приключения, Сёнэн, Супер сила, Экшен",
+    "rating": "9.1"
+  },
+  {
+    "id": 12,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/manga/images/65a9132f06ce8935697862.jpg",
+    "title": "Убийца Акамэ!",
+    "subTitle": "2016, Драма, Сёнэн, Супер сила, Ужасы, Фэнтези, Экшен",
+    "rating": "9.4"
+  },
+  {
+    "id": 13,
+    "img": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/60860454471da993279843.jpg",
+    "title": "Эхо террора",
+    "subTitle": "2014, Детектив, Психологическое, Триллер",
+    "rating": "9.0"
+  }
+]

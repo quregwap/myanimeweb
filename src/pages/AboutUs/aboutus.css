@@ -1,0 +1,83 @@
+.glassEffect {
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px) /* brightness(70%) */;
+}
+.EffectDropShadowLogo:hover {
+  filter: drop-shadow(0 0 0.85rem #1e2142);
+  transition: all 0.25s ease-in;
+}
+
+/*------ Settings ------*/
+.MainBlockButtonAboutUs {
+  position: absolute;
+  bottom: 10vh;
+  right: 10vh;
+  z-index: 3; /* adjust the value as needed */
+}
+.containerButtonMute {
+  --color: #f9e5cc;
+  --size: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #1e2142;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: var(--size);
+  user-select: none;
+  fill: var(--color);
+}
+
+.containerButtonMute .mute {
+  position: absolute;
+  animation: keyframes-fill 0.5s;
+}
+
+.containerButtonMute .voice {
+  position: absolute;
+  display: none;
+  animation: keyframes-fill 0.5s;
+}
+
+/* ------ On check event ------ */
+.containerButtonMute input:checked ~ .mute {
+  display: none;
+}
+
+.containerButtonMute input:checked ~ .voice {
+  display: block;
+}
+
+/* ------ Hide the default checkbox ------ */
+.containerButtonMute input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.resultNumbers {
+  font-size: clamp(14px, 4vw, 32px);
+}
+.subTitleAboutUs {
+  font-size: clamp(15px, 2.5vw, 20px);
+}
+.titleAboutUs {
+  font-size: clamp(19px, 4vw, 32px);
+}
+
+/* ------ Animation ------ */
+@keyframes keyframes-fill {
+  0% {
+    transform: rotate(0deg) scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: rotate(-10deg) scale(1.2);
+  }
+}
