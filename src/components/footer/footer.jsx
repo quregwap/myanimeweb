@@ -96,7 +96,7 @@ export const Footer = () => {
           </div>
         </section>
         <aside className="social flex max-w-[500px] mx-auto mt-[60px] gap-[57px] flex-wrap md:justify-center">
-          <a href="https://discord.gg/tT5cuW72z2" target="_blank">
+          <a href="https://discord.gg/t2fsFMnC" target="_blank">
             <div className="max-w-[80px] h-full bg-white rounded-[50%] px-[10px] py-[10px] hover:bg-cyberpunk hover:scale-105 transition-all">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +110,7 @@ export const Footer = () => {
               </svg>
             </div>
           </a>
-          <a href="https://www.youtube.com/@minxrka6491" target="_blank">
+          <a href="https://www.youtube.com/watch?v=J5IUpEuuwSQ&list=RDJ5IUpEuuwSQ&start_radio=1" target="_blank">
             <div className="max-w-[80px] h-full bg-white rounded-[50%] px-[10px] py-[10px] hover:bg-cyberpunk hover:scale-105 transition-all">
               <svg
                 width="60"
@@ -126,7 +126,7 @@ export const Footer = () => {
               </svg>
             </div>
           </a>
-          <a href="https://t.me/animewithsara" target="_blank">
+          <a href="https://t.me/qure300" target="_blank">
             <div className="max-w-[80px] h-full bg-white rounded-[50%] px-[10px] py-[10px] hover:bg-cyberpunk hover:scale-105 transition-all">
               <svg
                 width="60"
@@ -144,7 +144,7 @@ export const Footer = () => {
               </svg>
             </div>
           </a>
-          <a href="https://www.tiktok.com/@minxrka" target="_blank">
+          <a href="https://www.tiktok.com/" target="_blank">
             <div className="max-w-[80px] h-full bg-white rounded-[50%] px-[10px] py-[10px] hover:bg-cyberpunk hover:scale-105 transition-all">
               <svg
                 width="60"
@@ -165,9 +165,9 @@ export const Footer = () => {
       <aside className="mt-[53px] relative after:absolute after:h-[.0625rem] after:w-full after:left-0 after:-bottom-0.5 after:bg-[#4990E8]"></aside>
       <aside className="xl:flex max-w-[1900px] mx-auto xl:flex-col xl:items-center gap-[30px] flex flex-wrap justify-between mt-[100px] px-[200px] xl:px-[80px] big:px-[50px] sm:px-[25px] lg:px-[73px]">
         <div className="cursor-pointer">
-          <h1 className="text-white font-GothamPro font-light text-[20px] hover:text-[#da4f4a] transition-colors">
+          <a href="https://ca.kontur.ru/Files/userfiles/file/conditions.pdf" className="text-white font-GothamPro font-light text-[20px] hover:text-[#da4f4a] transition-colors">
             Условия предоставления услуг
-          </h1>
+          </a>
         </div>
         <div className="flex items-center">
           <svg
@@ -183,13 +183,13 @@ export const Footer = () => {
             />
           </svg>
           <h1 className="text-white font-GothamPro font-light text-[20px]">
-            2023. All rights reserved.
+            2026. All rights reserved.
           </h1>
         </div>
         <div className="cursor-pointer">
-          <h1 className="text-white font-GothamPro font-light text-[20px] hover:text-[#da4f4a] transition-colors">
+          <a href="https://csbkem.ru/images/privacy_policy.pdf" className="text-white font-GothamPro font-light text-[20px] hover:text-[#da4f4a] transition-colors">
             Политика конфиденциальности
-          </h1>
+          </a>
         </div>
       </aside>
     </footer>
