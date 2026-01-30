@@ -7,8 +7,6 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.8",
-    "@react-navigation/native": "^6.1.16",
-    "@react-navigation/native-stack": "^6.9.25",
     "@reduxjs/toolkit": "^2.2.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
